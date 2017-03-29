@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-
+  font-family: "Droid Serif", serif;
 }
 
 *, *::before, *::after {
