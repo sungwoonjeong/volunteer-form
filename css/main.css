@@ -21,3 +21,7 @@ header {
 hr {
   border: 1px solid #70ad55;
 }
+
+fieldset {
+  border: 0 none;
+}
