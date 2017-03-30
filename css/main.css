@@ -25,3 +25,8 @@ hr {
 fieldset {
   border: 0 none;
 }
+
+button {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
