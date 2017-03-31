@@ -23,7 +23,7 @@
 
     <div class="unit gutter-eight pad-t-2">
 
-      <fieldset>
+      <fieldset class="push-half">
         <legend class="giga gutter-half pad-b-1-4">Personal details</legend>
 
         <div class="grid pad-top-half">
@@ -76,81 +76,85 @@
         </div>
 
         <section class="gutter-half">
-            <hr>
+          <hr>
         </section>
       </fieldset>
 
-      <h2 class="giga gutter-half">Address</h2>
+      <fieldset class="push-half">
+        <legend class="giga gutter-half pad-top-quarter pad-b-1-2">Address</legend>
 
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1-2 island-half push-1-2">
-          <label for="address" class="pad-b-1-8">Street address</label>
-          <input id="address" name="address">
+        <div class="grid pad-t-1-4">
+          <div class="unit xs-1 s-1 m-1-2 island-half push-1-2">
+            <label for="address" class="pad-b-1-8">Street address</label>
+            <input id="address" name="address">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 island-half push-1-2">
+            <label for="city" class="pad-b-1-8">City</label>
+            <input id="city" name="city">
+          </div>
         </div>
 
-        <div class="unit xs-1 s-1 m-1-2 island-half push-1-2">
-          <label for="city" class="pad-b-1-8">City</label>
-          <input id="city" name="city">
+        <div class="grid push pad-b-1-4">
+          <div class="unit xs-1 s-1 m-1-2 island-half push-1-2">
+            <label for="province" class="pad-b-1-8">Province</label>
+            <select id="province">
+              <option value="">Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 island-half">
+            <label for="postal" class="pad-b-1-8">Postal code</label>
+            <input id="postal" name="postal">
+          </div>
         </div>
-      </div>
 
-      <div class="grid push pad-b">
-        <div class="unit xs-1 s-1 m-1-2 island-half push-1-2">
-          <label for="province" class="pad-b-1-8">Province</label>
-          <select id="province">
-            <option value="">Alberta</option>
-            <option>British Columbia</option>
-            <option>Manitoba</option>
-            <option>New Brunswick</option>
-            <option>Newfoundland & Labrador</option>
-            <option>Northwest Territories</option>
-            <option>Nova Scotia</option>
-            <option>Nunavut</option>
-            <option>Ontario</option>
-            <option>Prince Edward Island</option>
-            <option>Québec</option>
-            <option>Saskatchewan</option>
-            <option>Yukon</option>
-          </select>
-        </div>
+        <section class="gutter-half pad-t-1-2">
+          <hr>
+        </section>
+      </fieldset>
 
-        <div class="unit xs-1 s-1 m-1-2 island-half">
-          <label for="postal" class="pad-b-1-8">Postal code</label>
-          <input id="postal" name="postal">
-        </div>
-      </div>
+      <fieldset class="island-quarter gutter-half">
+        <legend class="unit giga pad-top-quarter pad-b-1-2">What activities are you interested in helping with?</legend>
 
-      <hr class="push-2">
-
-      <fieldset class="grid island-quarter gutter-half ">
-        <legend class="unit giga pad-b-1-4">What activities are you interested in helping with?</legend>
-
-        <div class="unit xs-1 s-1 m-1-2 pad-0">
+        <div class="grid">
           <input id="holes" type="checkbox">
-          <label for="holes" class="pad-b-1-4"> Digging holes</label>
+          <label for="holes" class="unit xs-1 s-1 m-1-2 pad-b-1-4"> Digging holes</label>
 
           <input id="dirty" type="checkbox">
-          <label for="dirty" class="pad-b-1-4">Getting dirty</label>
+          <label for="dirty" class="unit xs-1 s-1 m-1-2 pad-b-1-4">Getting dirty</label>
 
           <input id="objects" type="checkbox">
-          <label for="objects" class="pad-b-1-4">Lifting heavy objects</label>
+          <label for="objects" class="unit xs-1 s-1 m-1-2 pad-b-1-4">Lifting heavy objects</label>
 
           <input id="driving" type="checkbox">
-          <label for="driving" class="pad-b-1-4">Driving people</label>
+          <label for="driving" class="unit xs-1 s-1 m-1-2 pad-b-1-4">Driving people</label>
         </div>
 
-        <div class="unit xs-1 s-1 m-1-2 pad-0">
+        <div class="grid pad-0">
           <input id="trees" type="checkbox">
-          <label for="trees" class="pad-b-1-4">Transporting trees</label>
+          <label for="trees" class="unit xs-1 s-1 m-1-2 pad-b-1-4">Transporting trees</label>
 
           <input id="photos" type="checkbox">
-          <label for="photos" class="pad-b-1-4">Taking photos</label>
+          <label for="photos" class="unit xs-1 s-1 m-1-2 pad-b-1-4">Taking photos</label>
 
           <input id="online" type="checkbox">
-          <label for="online" class="pad-b-1-4">Online publishing</label>
+          <label for="online" class="unit xs-1 s-1 m-1-2 pad-b-1-4">Online publishing</label>
 
           <input id="people" type="checkbox">
-          <label for="people" class="pad-b-1-4">Managing people</label>
+          <label for="people" class="unit xs-1 s-1 m-1-2 pad-b-1-4">Managing people</label>
         </div>
 
       </fieldset>
