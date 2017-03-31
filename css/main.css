@@ -29,6 +29,8 @@ fieldset {
 button {
   background-color: #6e8c62;
   border-color: #6e8c62;
+  margin: auto;
+  display: block;
 }
 
 input,
